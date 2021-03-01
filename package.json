@@ -2,8 +2,8 @@
 	"name": "hexo-butterfly-snippets",
 	"displayName": "Hexo Butterfly Snippets",
 	"description": "Some Snippets and Command for Hexo Butterfly Theme in markdown writing",
-	"version": "1.0.4",
-	"publisher": "KakaWanYifan",
+	"version": "1.0.0",
+	"publisher": "Flipped-1121",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -38,8 +38,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets"
+        "url": "https://github.com/flipped-1121/VSCode-Hexo-Butterfly-Snippets"
     },
-    "homepage": "https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets",
-    "icon": "lib/hexo.png"
+    "homepage": "https://github.com/flipped-1121/VSCode-Hexo-Butterfly-Snippets",
+    "icon": "lib/butterfly.png"
 }

@@ -1,12 +1,39 @@
 {
-    "Insert Default": {
-        "prefix": [">default"],
+    "Insert Rainbow": {
+        "prefix": [">rainbow"],
         "body": [
-            "{% note default %}",
-            "$1",
-            "{% endnote %}$0"
+            "<rainbow-text>$1</rainbow-text>"
         ],
-        "description": "Insert Default."
+        "description": "彩虹字体"
+    },
+    "Insert Binft": {
+        "prefix": [">binft"],
+        "body": [
+            "<div id=\"binft\">Congratulations!</div>",
+            "<script src=\"https://cdn.jsdelivr.net/gh/flipped-1121/CDN/colorfont03.js\"></script>"
+        ],
+        "description": "打字效果"
+    },
+    "Insert Pshake": {
+        "prefix": [">pshake"],
+        "body": [
+            "<font class=\"Pshake\" size=6>Congratulations!</font>"
+        ],
+        "description": "字体抖动"
+    },
+    "Insert Btn0": {
+        "prefix": [">btn0"],
+        "body": [
+            "{% btn '$1',$2,far fa-hand-point-right,blue larger %}"
+        ],
+        "description": "实button"
+    },
+    "Insert Btn1": {
+        "prefix": [">btn1"],
+        "body": [
+            "{% btn '$1',$2,far fa-hand-point-right,outline blue larger %}"
+        ],
+        "description": "虚button"
     },
     "Insert Primary": {
         "prefix": [">primary"],
